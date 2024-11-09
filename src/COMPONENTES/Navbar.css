@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+ 
+}
+.navbarlist{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.options{
+    margin-right: 1rem;
+}
+
+.logo{
+    height: 3rem;
+    margin-left: 3rem;
+}
