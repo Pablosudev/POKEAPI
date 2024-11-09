@@ -1,3 +1,7 @@
 .header{
    text-align: center;
 }
+.header__section{
+   background-color: rgb(32, 7, 128);
+   color: white;
+}
