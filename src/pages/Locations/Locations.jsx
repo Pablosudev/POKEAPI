@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import"./app.css" ;
-import { CardsCity } from "./COMPONENTES/CardsComponentes/CardsCityComponents";
-import { NavBar } from './COMPONENTES/NAVBAR/Navbar'
-import { CitySearch } from "./COMPONENTES/SEARCHCITY/CitySearchComponent";
+import { CardsCity } from "../../COMPONENTES/CardsComponentes/CardsCityComponents";
+import { NavBar } from "../../COMPONENTES/NAVBAR/Navbar";
+import { CitySearch } from "../../COMPONENTES/SEARCHCITY/CitySearchComponent";
 
 
 
-export const App = () => {
+export const Locations = () => {
   
   const [apiData,setApiData] = useState(null)
   const [apiUrlPage, setApiUrlPage] = useState("https://pokeapi.co/api/v2/location/")
@@ -61,4 +61,4 @@ export const App = () => {
   )
 }
 
-export default App
+
