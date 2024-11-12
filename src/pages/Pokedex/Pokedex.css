@@ -1,0 +1,15 @@
+
+.pokemonTitle{
+    text-align: center;
+    margin-top: 2rem;
+}
+.buttonBack{
+    border-radius: 100%;
+    position: absolute;
+    left: 30%;
+}
+.buttonNext{
+    border-radius: 100%;
+    position: absolute;
+    right: 30%;
+}

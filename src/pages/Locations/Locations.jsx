@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import"./app.css" ;
 import { CardsCity } from "../../COMPONENTES/CardsComponentes/CardsCityComponents";
-import { NavBar } from "../../COMPONENTES/NAVBAR/Navbar";
 import { CitySearch } from "../../COMPONENTES/SEARCHCITY/CitySearchComponent";
 
 
@@ -36,7 +35,6 @@ export const Locations = () => {
   return (
    <>
    <header className="header">
-    <NavBar/>
     <section className ="header__section">
     <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" alt="Pokeapi" />
     <h2 className="titledate">LA NUEVA API DE POKéMON</h2>
